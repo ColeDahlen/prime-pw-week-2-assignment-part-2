@@ -7,10 +7,10 @@
 
 
 // 0. WRITE YOUR DESCRIPTION HERE
-// //EXAMPLE. We make a variable called number and set it to 1 as a number.
-// Then we increment the number variable. Number is now 2.
-// We check if number is greater than or equal to 2. 2 is equal to 2, so
-// we console.log 'yes'.
+// We create a variable and set the value equal to 1.
+// We then add 1 to the value and save it to itself making the variable equal to 2.
+// Then we set up a conditional statement that checks if the variable we set up is greater than or equal to 2, and if it is we console.log 'yes'.
+// In this case the variable "number" has a value of 2 so the code would console log the string 'yes'.
 
 //CODE
 /*
@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We set up a variable "name" and set it equal to the string 'Dane'. 
+// We then set up a conditional that checks if the variable "name" is equal to the string 'Mary', and if it does it console logs 'Hi, Mary!'.
+// If that condition isn't met it then goes to the "else" statement and console logs the string 'How do you do?'.
 //
 
 //CODE
@@ -45,11 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// First we establish 2 variables one called "secret" and we don't set a value, the next is "code" and we put it equal to the value of 123.
+// We then set up 2 conditional statements one checks if the variable "code" equals the value 123 and if it does the variable "secret" is given the string 'super'
+// and the variable "code" has its variable multiplied by 2 and then saved back into itself. 
+// Then we set up another conditional that checks if the variable "code" is greater than 250, and if so the variable "secret" is given the string 'duper'.
+// We then console log the variable secret to get the answer "super".
 //CODE
 /*
 let secret;
@@ -70,11 +70,11 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// First we create 3 variables, first one is called "isStudent" and we give it the boolean value "true", the next variable is called "age" and we give it the value 34, the last variable is named "zip" and we set the value to 55407.
+// We then set up a conditional that checks if variable "isStudent" is equal to true and if the variable "zip" is equal to the value 80000. If both are true we console log the string "You're a student on the West Coast!".
+// If that conditional isn't met we then ask if the variable "isStudent" is false or the variable "age" is less then 30 if either of these conditions are met we console log the string "What are your hobbies?"
+// If that conditional isn't met we then ask if the variable "isStudent" is true, and if so we console log the string "Welcome to Prime!"
+// If none of these conditionals are met we console log the string "How about the weather?".
 //CODE
 /*
 let isStudent = true;
@@ -129,11 +129,12 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
+// colorOne should be 'blue' and coloreTwo should be 'red'
 /*
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// colorTwo needs to be set to the string 'purple' too.
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -144,9 +145,10 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+// const is not a variable and needs to be changed to "let" function.
 let temp = 40;
 const time = 4;
-
+// replace || with && so both conditions need to be met to console log 'throw away the food!'.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -157,9 +159,10 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+// const is not a variable and needs to changed to the function "let".
 let age = 21;
 const minAge = 21;
-
+// the console logs need to be switched, so if age is greater than or equal to minAge it console logs "enter".
 if(minAge <= age) {
   console.log('no entry');
 } else {
