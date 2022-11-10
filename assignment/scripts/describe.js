@@ -29,7 +29,7 @@ if (number >= 2) {
 // We set up a variable "name" and set it equal to the string 'Dane'. 
 // We then set up a conditional that checks if the variable "name" is equal to the string 'Mary', and if it does it console logs 'Hi, Mary!'.
 // If that condition isn't met it then goes to the "else" statement and console logs the string 'How do you do?'.
-//
+// The code will run and console log 'How do you do?' because the first condtional isn't met so it will go to the else statement.
 
 //CODE
 /*
@@ -50,6 +50,7 @@ if (name === 'Mary') {
 // and the variable "code" has its variable multiplied by 2 and then saved back into itself. 
 // Then we set up another conditional that checks if the variable "code" is greater than 250, and if so the variable "secret" is given the string 'duper'.
 // We then console log the variable secret to get the answer "super".
+// The code runs and since we assigned code to 123 the first conditional is met and the variable secret is set to super, so when we console log the variable secret we get "super".
 //CODE
 /*
 let secret;
@@ -75,6 +76,7 @@ console.log(secret)
 // If that conditional isn't met we then ask if the variable "isStudent" is false or the variable "age" is less then 30 if either of these conditions are met we console log the string "What are your hobbies?"
 // If that conditional isn't met we then ask if the variable "isStudent" is true, and if so we console log the string "Welcome to Prime!"
 // If none of these conditionals are met we console log the string "How about the weather?".
+// The code would run through the conditionals and since the only conditional that is met is the 3rd one it would console log "Welcome to Prime!".
 //CODE
 /*
 let isStudent = true;
